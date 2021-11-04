@@ -10,15 +10,10 @@ try {
 
 const files = fs.readdirSync(inputDir);
 
-
-console.log(files);
-
 shuffle(files);
-console.log(files);
 
 sortJsonPng(files);
 console.log(files);
-
 
 
 async function shuffleFiles() {
@@ -53,8 +48,6 @@ async function shuffleFiles() {
 
 function shuffle(array) {
         let currentIndex = array.length,  randomIndex;
-
-        console.log('currentIndex: ' + currentIndex);
 
         // While there remain elements to shuffle...
         while (currentIndex != 0) {

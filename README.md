@@ -1,19 +1,20 @@
-## Funcionamiento
+## What shuffle_candies does? 
 
-Script que mezcla el orden de pares de archivos listos para la candymachine.
+It shuffles pairs of ready to candymachine files, one nft one pair of png and json.
 
-Por ejemplo, si en el directorio input estan estos archivos:
+For example, if we have the following files in the input directory:
 0.png, 0.json, 4.png, 4.json, 10.png, 10.json, 31.png, 31.json
 
-Luego de ejecutar el script en el directorio output quedara:
+After running the script it will leave the following files in the output directory:
 0.png, 0.json, 1.png, 1.json, 2.png, 2.json, 3.png, 3.json
 
-Notar que antes de renombrar de forma definitiva a los nfts finales, se mezclan todos sin 
-tener en cuenta el orden. Es decir que el original 0.png puede terminar siendo el 2.png.
+Take note that before renaming the target files, all of them are shuffled.
+So the original 0.png could be the final 2.png.
 
-Si el directorio output no existe se crea.
+If the input directory doesn't exists the script will create it.
 
-## Uso
+## Use
 
-node shuffle_candies
-
+1. Check the nft files are in the input directory.
+2. Run the script: node shuffle_candies
+3. Check the results in the output directory
