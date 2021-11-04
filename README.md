@@ -1,3 +1,5 @@
+# shuffle_candies
+
 ## What shuffle_candies does? 
 
 It shuffles pairs of ready to candymachine files, one nft one pair of png and json.
@@ -16,5 +18,19 @@ If the input directory doesn't exists the script will create it.
 ## Use
 
 1. Check the nft files are in the input directory.
-2. Run the script: node shuffle_candies
+2. Run the script: node shuffle_candies.js
+3. Check the results in the output directory
+
+# update_metadata
+
+## What update_metadata does? 
+
+It reads each json from the input directory.
+Updates the metadata with the values defined in the scripts.
+Sava the updated json file in the output directory.
+
+## Use
+
+1. Check the nft files are in the input directory.
+2. Run the script: node update_metadata.js
 3. Check the results in the output directory
