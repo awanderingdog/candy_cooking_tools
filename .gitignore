@@ -12,3 +12,5 @@ jspm_packages/
 
 input_nfts/*
 output_nfts/*
+
+.DS_Store
