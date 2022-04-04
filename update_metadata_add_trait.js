@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const inputDir = "./input_nfts/";
-const outputDir = "./output_nfts/";
+const inputDir = "./metadata-megaupdate/downloaded-metadata/";
+const outputDir = "./metadata-megaupdate/downloaded-metadata-with-trait/";
 
 
 try {
